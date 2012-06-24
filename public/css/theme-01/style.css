@@ -1,0 +1,33 @@
+body {font-size:76%; font-family: "lucida grande,tahoma,verdana,arial,sans-serif"; background:#f0f0f0; word-wrap:break-word; padding:0; margin:0;}
+
+#controlbar {background:#3B5998; border-bottom: 1px solid #E5E5E5; min-height: 35px; padding-bottom: 0; padding-top: 0; width: 100%;}
+	#button-elements {padding:4px; display:table;}
+	.toolbar-button {display:table-cell;}
+	.toolbar-button a {float:left; padding: 5px 5px 5px 12px; color: #fff; font-weight: normal; text-decoration: none;}
+	.toolbar-button a:hover {text-decoration: underline;}
+	.toolbar-button a:active {letter-spacing: 1px;}
+
+#thumb-pane {position:absolute; width:236px; padding:0; background:#D3D8E8; /*background: -moz-linear-gradient(center top , white, #D3D8E8) repeat scroll 0 0 transparent;*/}
+	#thumb-elements {overflow:auto;}
+	.thumb-element {color: #666666; padding: 9px 0 0 41px;}
+
+.page-number {font-weight: bold; padding-left: 12px; padding-right: 6px; padding-top: 2px; display:block;}
+
+img.thumb-image-emphasized {border: 3px solid #0093FF; border-radius: 3px 3px 3px 3px; cursor: pointer;}
+	.thumb-image-emphasized .page-number {color: #0093FF;}
+
+#content-pane {background-color: #D3D8E8; border: 0px solid red; outline: medium none; overflow: auto; position: absolute; text-align: center; height:100%; width:100%;}
+	#page-pane {color: #666666; border: 0px solid green;}
+	.page-element {padding: 24px 0; position: relative; display: inline-block; border:0px solid red;}
+	.page-image {border: 1px solid #000; cursor: text; margin: 0 8px;}
+
+h1 {font-size:20px; margin:0; padding:10px 0; color:#fff;}
+h3 {font-size:18px; margin:0; padding:8px 0;}
+p {font-size:12px; line-height:1.5em; margin:0; padding:5px 0;}
+#controlbar p {color:#fff;}
+
+
+/* image rotation */
+.rotate-90{/* for firefox,safari,chrome,etc. */ -webkit-transform:rotate(90deg) scale(0.7);-moz-transform:rotate(90deg) scale(0.8);/* for ie */ filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1);behavior:url(js/PIE.php);}
+.rotate-180{/* for firefox,safari,chrome,etc. */ -webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);/* for ie */ filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);behavior:url(../script/PIE.php);}
+.rotate-270{/* for firefox,safari,chrome,etc. */ -webkit-transform:rotate(270deg) scale(0.7);-moz-transform:rotate(270deg) scale(0.8);/* for ie */ filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);behavior:url(js/PIE.php);}
