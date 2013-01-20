@@ -23,8 +23,9 @@
 
     <div id="thumb-pane"></div> <!-- end thumb-pane -->
 
-    <div id="content-pane" style="left: 236px; width: 1130px;height:624px;">
+    <div id="content-pane" style="">
         <div id="page-pane"></div>
+        <div class="" id="rubberband"></div>
     </div> <!-- end content-panel -->
 </div>
 
