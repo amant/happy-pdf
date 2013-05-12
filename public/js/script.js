@@ -125,7 +125,8 @@ function Clipboard() {
   };
 
   happyPDF.baseURI = function () {
-    return 'http://localhost/happy-pdf/';
+    return 'http://' + location.hostname + '/happy-pdf/';
+    //return 'http://localhost/happy-pdf/';
   }
 
   var HappyPDF = function (win, doc) {};
