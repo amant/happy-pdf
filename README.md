@@ -31,7 +31,7 @@ apt-get install tesseract-ocr
 gem install parallel
 Install ruby and then install gem parallel Some of the multi-threading PDF processing is done through Ruby and ruby gem Parallel.
 
-Move /bin/nobody to /etc/sudoers.d directoy and set permission to 0440
+- Move /bin/nobody to /etc/sudoers.d directoy and set permission to 0440
 
 Limitation:
 - Password protected PDF are not converted.
