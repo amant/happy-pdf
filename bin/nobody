@@ -1,0 +1,3 @@
+ALL ALL=NOPASSWD: /opt/lampp/htdocs/happy-pdf/bin/convert.sh
+ALL ALL=NOPASSWD: /opt/lampp/htdocs/happy-pdf/bin/split_pdf.rb
+ALL ALL=NOPASSWD: /opt/lampp/htdocs/happy-pdf/bin/pdf2html.sh
