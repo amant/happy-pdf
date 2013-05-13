@@ -11,23 +11,23 @@ http://174.34.171.67/happy-pdf/
 
 
 To setup on server
--imagemagick
+- imagemagick
 ImageMagick reads PDF files and convert them into image (png) format.
 apt-get install imagemagick
 
--pdftk
+- pdftk
 Splits multi-page pdf into single pages.
 sudo apt-get install pdftk
 
--pdftotext
+- pdftotext
 It is used to extract text out of searchable pdf documents
 apt-get install poppler-utils
 
--tesseract
+- tesseract
 Tesseract performs the actual ocr on your scanned images. More accurate than pdftohtml but bit slower.
 apt-get install tesseract-ocr
 
--ruby
+- ruby
 gem install parallel
 Install ruby and then install gem parallel Some of the multi-threading PDF processing is done through Ruby and ruby gem Parallel.
 
